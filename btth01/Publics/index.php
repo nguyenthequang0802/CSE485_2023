@@ -10,8 +10,49 @@ if ($controller == 'category') {
         case 'index':
             $categoryController->index();
             break;
+        case 'add':
+            $categoryController->create();
+            break;
+        case 'store':
+            $categoryController->store();
+            break;
+        case 'edit':
+            $categoryController->edit();
+            break;
+        case 'update':
+            $categoryController->update();
+            break;
+        case 'delete':
+            $categoryController->delete();
+            break;
         default:
             $categoryController->index();
+            break;
+    }
+} elseif ($controller == 'author')  {
+    require_once '../Controllers/AuthorController.php';
+    $authorController = new AuthorController();
+    switch ($action) {
+        case 'index':
+            $authorController->index();
+            break;
+        case 'add':
+            $authorController->create();
+            break;
+        case 'store':
+            $authorController->store();
+            break;
+        case 'edit':
+            $authorController->edit();
+            break;
+        case 'update':
+            $authorController->update();
+            break;
+        case 'delete':
+            $authorController->delete();
+            break;
+        default:
+            $authorController->index();
             break;
     }
 }

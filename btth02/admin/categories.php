@@ -15,16 +15,16 @@ if(!$user->loggedIn()) {
 }
 
 
-include('inc/header.php');
+include('layouts/header.php');
 ?>
-<script src="js/jquery.dataTables.min.js"></script>
-<script src="js/dataTables.bootstrap.min.js"></script>		
-<link rel="stylesheet" href="css/dataTables.bootstrap.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 <script src="js/categories.js"></script>	
 <link href="css/style.css" rel="stylesheet" type="text/css" >  
 </head>
 <body>
-<?php include "menus.php"; ?>
+<?php include "menu.php"; ?>
 
 <header id="header">
 	<div class="container">
@@ -41,7 +41,7 @@ include('inc/header.php');
 <section id="main">
 	<div class="container">
 		<div class="row">
-			<?php include "left_menus.php"; ?>
+			<?php include "left_menu.php"; ?>
 			<div class="col-md-9">
 				<div class="panel panel-default">
 					<div class="panel-heading"style="background-color:  #095f59;>
@@ -75,4 +75,4 @@ include('inc/header.php');
 	</div>
 </section>
 
-<?php include('inc/footer.php');?>
+<?php include('layouts/footer.php');?>

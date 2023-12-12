@@ -1,5 +1,3 @@
-
-<?php
 $(document).ready(function(){
 	var usersData = $('#userList').DataTable({
 		"lengthChange": false,

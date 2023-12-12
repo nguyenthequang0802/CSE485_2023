@@ -49,4 +49,3 @@ include "layout/header.php";
 <!--    End main -->
 <?php
 include "layout/footer.php";
-?>

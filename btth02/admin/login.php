@@ -1,7 +1,7 @@
 <?php
-include "layout/header.php";
+include "layouts/header.php";
 ?>
-<!--    Start main -->
+
 <main class=" mt-2 p-3">
     <h4 class="text-center">LOGIN SYSTEM</h4>
     <div class="container">
@@ -46,6 +46,6 @@ include "layout/header.php";
         </div>
     </div>
 </main>
-<!--    End main -->
+
 <?php
-include "layout/footer.php";
+include "layouts/footer.php";

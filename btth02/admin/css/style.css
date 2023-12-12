@@ -22,13 +22,12 @@ body{
 }
 
 
-/*Header */
 
 #header{
 	background: #333333;
 	color: #ffffff;
 	padding-bottom: 10px;
-	margin-bottom: : 15px;
+	margin-bottom: 15px;
 }
 
 #header .create{
@@ -47,8 +46,6 @@ body{
 	margin-top: 30px;
 
 }
-
-
 
 .navbar-default {
   background-color: #095f59;
@@ -119,8 +116,6 @@ body{
     background-color: #689a9b;
   }
 }
-
-/*Breadcrumb*/
 
 .breadcrumb{
 	background: #cccccc;

@@ -29,3 +29,18 @@ if ($controller == 'post'){
             break;
     }
 }
+
+//  if($controller == 'user'){
+//        // If index.php is in the bai01 directory and UserController.php is in the controllers directory
+//         require_once('./controllers/UserController.php');
+    
+//         $userController = new UserController();
+//         switch ($action){
+//             case 'index':
+//                 $userController->index();
+//                 break;
+//             default:
+//                 $userController->index();
+//                 break;
+//         }
+//     }

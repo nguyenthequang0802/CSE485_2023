@@ -28,7 +28,7 @@ if ($controller == 'post'){
             $postController->index();
             break;
     }
-<<<<<<< HEAD
+
 }
 
 if ($controller == 'category') {
@@ -58,6 +58,3 @@ if ($controller == 'category') {
             break;
     }
 }
-=======
-}
->>>>>>> 498dfbbc49e1a510026ed0f350fb4222cc676a40
